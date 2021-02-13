@@ -18,3 +18,8 @@ body {
     margin-bottom: 32px;
     font-size: 48px;
 }
+
+#info a {
+    text-decoration: none;
+    color: #000;
+}
