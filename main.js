@@ -1,4 +1,4 @@
-axios.get("https://ip-api.com/json").then(res => {
+axios.get("http://ip-api.com/json").then(res => {
     document.getElementById("location").innerHTML = `Your country is <strong id="country">${res.data.country}</strong>`;
     axios.get(`https://disease.sh/v3/covid-19/countries/${res.data.country}`).then(res => {
         data = res.data
